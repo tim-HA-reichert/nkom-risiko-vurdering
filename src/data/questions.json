@@ -1,0 +1,151 @@
+{
+  "setOfQuestions": [
+    {
+      "id": "q1",
+      "step": 1,
+      "question": "Hva brukes KI-løsningen hovedsakelig til?",
+      "answers": [
+        {
+          "id": "q1_a1",
+          "label": "Forbedre eller automatisere interne prosesser (for eksempel sortering av e-post, anbefaling av innhold, analyse av data)",
+          "riskLevel": 4,
+          "checkId": 1
+        },
+        {
+          "id": "q1_a2",
+          "label": "Generere innhold for brukere (tekst, bilder, video eller lignende)",
+          "riskLevel": 2,
+          "checkId": 2
+        },
+        {
+          "id": "q1_a3",
+          "label": "Gi beslutningsstøtte eller automatiserte vurderinger om enkeltpersoner",
+          "riskLevel": 3,
+          "checkId": 3
+        },
+        {
+          "id": "q1_a4",
+          "label": "Analysere eller rangere personer (for eksempel scoring, profilering eller prioritering)",
+          "riskLevel": 3,
+          "checkId": 4
+        },
+        {
+          "id": "q1_a5",
+          "label": "Overvåking eller identifisering av personer (for eksempel ansiktsgjenkjenning)",
+          "riskLevel": 3,
+          "checkId": 5
+        },
+        {
+          "id": "q1_a6",
+          "label": "Annet / usikker",
+          "riskLevel": 0,
+          "checkId": 6
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "step": 2,
+      "question": "Brukes løsningen hovedsakelig innenfor ett eller flere av følgende områder?",
+      "answers": [
+        {
+          "id": "q2_a1",
+          "label": "Rekruttering og arbeidsliv",
+          "riskLevel": 3,
+          "checkId": 1
+        },
+        {
+          "id": "q2_a2",
+          "label": "Utdanning eller opptak",
+          "riskLevel": 3,
+          "checkId": 2
+        },
+        {
+          "id": "q2_a3",
+          "label": "Drift av kritisk infrastruktur",
+          "riskLevel": 3,
+          "checkId": 3
+        },
+        {
+          "id": "q2_a4",
+          "label": "Rettssystemet eller politiarbeid",
+          "riskLevel": 3,
+          "checkId": 4
+        },
+        {
+          "id": "q2_a5",
+          "label": "Tilgang til viktige tjenester (for eksempel kreditt, velferd eller forsikring)",
+          "riskLevel": 3,
+          "checkId": 5
+        },
+        {
+          "id": "q2_a6",
+          "label": "Ingen av disse",
+          "riskLevel": 0,
+          "checkId": 6
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "step": 3,
+      "question": "Hvordan påvirker løsningen enkeltpersoner?",
+      "answers": [
+        {
+          "id": "q3_a1",
+          "label": "Den har ingen direkte betydning for rettigheter eller tilgang til tjenester",
+          "riskLevel": 1,
+          "checkId": 1
+        },
+        {
+          "id": "q3_a2",
+          "label": "Den gir anbefalinger eller støtte, men mennesker tar endelig beslutning",
+          "riskLevel": 2,
+          "checkId": 2
+        },
+        {
+          "id": "q3_a3",
+          "label": "Den tar eller påvirker beslutninger som kan få rettslige eller tilsvarende virkninger",
+          "riskLevel": 3,
+          "checkId": 3
+        },
+        {
+          "id": "q3_a4",
+          "label": "Usikker",
+          "riskLevel": 0,
+          "checkId": 4
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "step": 4,
+      "question": "Innebærer løsningen noe av det følgende?",
+      "list": [
+        "Sosial poengsetting av personer",
+       "Skadelig påvirkning av menneskers atferd eller underbevissthet",
+       "Sanntids overvåking eller identifisering av personer ved bruk av biometriske data (foreksempel ansiktsgjenkjenning i offentlige rom)"
+      ],
+      "answers": [
+        {
+          "id": "q4_a1",
+          "label": "Ja",
+          "riskLevel": 4,
+          "checkId": 1
+        },
+        {
+          "id": "q4_a2",
+          "label": "Nei",
+          "riskLevel": 1,
+          "checkId": 2
+        },
+        {
+          "id": "q4_a3",
+          "label": "Usikker",
+          "riskLevel": 0,
+          "checkId": 3
+        }
+      ]
+    }
+  ]
+}
